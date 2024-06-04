@@ -1,0 +1,86 @@
+body{
+   background-image: url(resources/backgroundimage.jpg); 
+   background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+header{
+    font-size: 100px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 10px 5px 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: darkred;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: firebrick;
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+   margin: 10px;
+}
+#img2{
+    height:400px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+#img3{
+    height:220px;
+    width: 330px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+#box{
+    border:solid;
+    padding: 10px;
+    overflow: hidden;
+}
+#disclaimer{
+    animation-name:slideRight;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes slideRight{
+    from{transform: translateX(100%)}
+    to{transform: translateX(-50%)}
+}
+
