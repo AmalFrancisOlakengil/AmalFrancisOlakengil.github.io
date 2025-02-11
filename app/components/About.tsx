@@ -18,8 +18,7 @@ export default function About() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          I build websites, desktop applications, Linear regression and binary classification models, and image
-          classifiers. I have experience in Python, Java, C/C++, JavaScript, HTML, and CSS. I mainly work in Visual
+          I build AI powered Solutions and work mainly with AI Modeling, Data Science, backend and Data Management. I have experience in Python, Java, C/C++, JavaScript, HTML, and CSS. I mainly work in Visual
           Studio Code, Visual Studio, Jupyter, Kaggle Notebooks and Google Colab.
         </motion.p>
         <motion.p
