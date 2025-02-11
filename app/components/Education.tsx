@@ -7,7 +7,7 @@ export default function Education() {
       institution: "SRM UNIVERSITY",
       degree: "BTech in Computer Science and Engineering",
       status: "Pursuing",
-      grade: "CGPA - 9.78",
+      grade: "CGPA - 9.82",
     },
     {
       institution: "INDIAN INSTITUTE OF TECHNOLOGY MADRAS",
